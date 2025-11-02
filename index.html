@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marksheet Generator</title>
+  <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+
+  <div class="container">
+    <h1><i class="fa-solid fa-graduation-cap"></i> Marksheet Generator</h1>
+
+    <div class="input-section" id="inputSection">
+      <label>Student Name:</label>
+      <input type="text" id="studentName" placeholder="Enter student name">
+
+      <h3>Enter Marks (out of 100)</h3>
+
+      <div class="subject-inputs">
+        <label>English:</label>
+        <input type="number" id="eng" placeholder="English marks">
+
+        <label>Math:</label>
+        <input type="number" id="math" placeholder="Math marks">
+
+        <label>Science:</label>
+        <input type="number" id="sci" placeholder="Science marks">
+
+        <label>Computer:</label>
+        <input type="number" id="comp" placeholder="Computer marks">
+
+        <label>Urdu:</label>
+        <input type="number" id="urdu" placeholder="Urdu marks">
+      </div>
+
+      <button id="addStudent">Add Student</button>
+      <button id="showMarksheet">Show Marksheet</button>
+    </div>
+
+    <div id="marksheetContainer" class="marksheet" style="display: none;"></div>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</body>
+</html>

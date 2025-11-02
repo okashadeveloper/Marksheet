@@ -1,0 +1,85 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: url('./background.jpg') no-repeat center center/cover;
+  color: #fff;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.45);
+  padding: 30px 40px;
+  border-radius: 20px;
+  width: 460px;
+  text-align: center;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #ff3366;
+  text-shadow: 0 0 10pxf #b026ff;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.subject-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  text-align: center;
+  font-size: 15px;
+}
+
+button {
+  background:  #ff3366;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #ec7895;
+  color: #fff;
+}
+
+.marksheet {
+  margin-top: 20px;
+}
+
+.student-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  margin: 15px 0;
+  padding: 15px;
+  text-align: left;
+  font-size: 17px;
+  animation: fadeIn 0.8s;
+}
+
+.student-card h3 {
+  color:  #ff3366;
+  margin-bottom: 5px;
+}
+
