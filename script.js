@@ -87,7 +87,7 @@ showBtn.addEventListener('click', function() {
 
 function passAnimation() {
   confetti({
-    particleCount: 120,
+    particleCount: 2000,
     spread: 80,
     origin: { y: 0.7 }
   });
